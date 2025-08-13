@@ -35,8 +35,28 @@ The day concluded with writing and running the **first hands-on RISC-V program**
 - Built the foundation for later hardware implementation stages.  
 
 
-### Day 2 – ABI & Verification Basics
-I learned about the **Application Binary Interface (ABI)** and walked through creating my own assembler routines, understanding how instructions map to registers and binary.  
+### Day 2 – Application Binary Interface and RISC-V Instruction Types
+
+Day 2 focused on deepening the understanding of the **Application Binary Interface (ABI)**, which defines how software components interact at the binary level. We explored **function calling conventions**, covering register usage, parameter passing, and return value handling. The session also detailed **stack management** and **memory layout**, highlighting how local variables, function frames, and return addresses are stored and accessed. In addition, we examined **system call mechanisms** for interaction between user programs and the operating system.
+
+We then studied the primary **RISC-V instruction formats**:
+- **R-Type** – Register-to-register operations (e.g., arithmetic and logic).  
+- **I-Type** – Immediate value and load instructions.  
+- **S-Type** – Store instructions for memory operations.  
+
+The day concluded with a discussion on the **ISA execution methodology**, mapping how different instruction types are fetched, decoded, and executed in the hardware pipeline.
+
+For the practical component, we engaged in **hands-on programming** exercises, writing assembly routines to explore the ABI, manage the stack, and interact with memory directly through RISC-V instructions.  
+[GitHub](#)
+
+**Key Takeaways**
+- Understood the role of the ABI in defining binary-level software-hardware interaction.  
+- Learned RISC-V function calling conventions and stack frame structure.  
+- Explored memory layout and system call mechanisms.  
+- Gained familiarity with R-Type, I-Type, and S-Type instruction formats.  
+- Learned the execution flow of instructions in RISC-V.  
+- Applied concepts through hands-on assembly programming.  
+
 
 ### Day 3 – Digital Logic with TL-Verilog
 Day 3 focused on mastering **Transaction-Level Verilog (TL-Verilog)** for efficient digital design. The session began with an introduction to **TL-Verilog syntax** and hands-on implementation using the **Makerchip IDE**. Key concepts covered included applying **design constraints** and leveraging **timing-based modeling** to achieve predictable and maintainable hardware behavior.
