@@ -14,8 +14,26 @@ As someone keenly interested in hardware and processor design, the **RISC-V MYTH
 
 This repository mirrors the workshop’s five-day structure with progressive learning, hands-on labs, and practical examples:
 
-### Day 1 – Foundations
-I explored **RISC-V’s open-source ISA**, hopped into C programming, compiled code with GCC, and ran simulations using Spike. I also dove into number systems and binary basics.  
+### Day 1 – Introduction to RISC-V and the Software-to-Hardware Stack
+
+Day 1 provided a foundational understanding of the **RISC-V architecture** and its role as an open-source Instruction Set Architecture (ISA). We explored the design principles that make RISC-V modular, extensible, and widely adopted in both academia and industry.
+
+A key focus was understanding the **RISC-V software-to-hardware stack**, which defines the flow from high-level applications down to hardware execution:
+- **Application Layer** – End-user programs and software.  
+- **API (Application Programming Interface)** – The interface enabling software modules to interact.  
+- **ABI (Application Binary Interface)** – The boundary between application code and the operating system, defining function calling conventions, data types, and register usage.  
+- **Assembly / Machine Code** – Human-readable instructions mapped to binary encodings understood by the processor.  
+- **RTL (Register Transfer Level)** – Hardware-level representation that executes machine instructions.
+
+The day concluded with writing and running the **first hands-on RISC-V program**, compiling it, and observing its execution on a simulated environment, bridging the gap between theory and practice.  
+
+**Key Takeaways**
+- Learned the core concepts of the RISC-V ISA.  
+- Understood the complete software-to-hardware translation flow.  
+- Differentiated between API, ABI, assembly, and RTL.  
+- Gained practical experience running a RISC-V program in simulation.  
+- Built the foundation for later hardware implementation stages.  
+
 
 ### Day 2 – ABI & Verification Basics
 I learned about the **Application Binary Interface (ABI)** and walked through creating my own assembler routines, understanding how instructions map to registers and binary.  
