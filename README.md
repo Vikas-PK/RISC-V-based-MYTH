@@ -32,7 +32,9 @@ Block diagram of pipelined calculator (with memory and recall) developed on 3rd 
 Designed and implemented instruction decoding, ALU, register file, and control units, while tackling hazards like read/write issues, branches, and load stalls in a single-cycle microarchitecture.  
 
 Block Diagram of the non-pipelined RISC-V processor  developed on 4th day of the workshop,
-df
+
+<img width="1686" height="1056" alt="image" src="https://github.com/user-attachments/assets/4c794860-44f5-430f-b9db-a72c744e91b1" />
+
 
 ### Day 5 – Load/Store, Memory, Testing
 Added load/store instructions, crafted a memory subsystem, and developed a testbench to verify CPU functionality—tying together software and hardware verification.
