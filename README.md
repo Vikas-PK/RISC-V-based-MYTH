@@ -37,7 +37,10 @@ The day concluded with writing and running the **first hands-on RISC-V program**
 
 ### Day 2 – Application Binary Interface and RISC-V Instruction Types
 
-Day 2 focused on deepening the understanding of the **Application Binary Interface (ABI)**, which defines how software components interact at the binary level. We explored **function calling conventions**, covering register usage, parameter passing, and return value handling. The session also detailed **stack management** and **memory layout**, highlighting how local variables, function frames, and return addresses are stored and accessed. In addition, we examined **system call mechanisms** for interaction between user programs and the operating system.
+Day 2 focused on the **Application Binary Interface (ABI)**, which defines how software components interact at the binary level. We explored:
+- **Function Calling Conventions** – How arguments are passed and return values are handled via registers.  
+- **Stack Management and Memory Layout** – Organization of the call stack, local variables, and function frames.  
+- **System Call Mechanisms** – How programs interact with the operating system through defined ABI rules.
 
 We then studied the primary **RISC-V instruction formats**:
 - **R-Type** – Register-to-register operations (e.g., arithmetic and logic).  
