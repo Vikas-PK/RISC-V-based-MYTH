@@ -23,8 +23,21 @@ I learned about the **Application Binary Interface (ABI)** and walked through cr
 ### Day 3 – Digital Logic with TL-Verilog
 Engaged with combinational and sequential logic, explored flip-flops and pipelined designs using **TL-Verilog** on **Makerchip**—powerful tools for modern HDL abstraction.   
 
+Block diagram of pipelined calculator (with memory and recall) developed on 3rd day of the workshop,
+
+<img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/e6611206-25f4-4d76-9428-b9de926bb488" />
+
+
 ### Day 4 – Building the CPU Core
 Designed and implemented instruction decoding, ALU, register file, and control units, while tackling hazards like read/write issues, branches, and load stalls in a single-cycle microarchitecture.  
 
+Block Diagram of the non-pipelined RISC-V processor  developed on 4th day of the workshop,
+df
+
 ### Day 5 – Load/Store, Memory, Testing
-Added load/store instructions, crafted a memory subsystem, and developed a testbench to verify CPU functionality—tying together software and hardware verification.  
+Added load/store instructions, crafted a memory subsystem, and developed a testbench to verify CPU functionality—tying together software and hardware verification.
+
+Block Diagram of the pipelined RISC-V processor developed on 5th day of the workshop,
+
+<img width="683" height="1090" alt="image" src="https://github.com/user-attachments/assets/13cd8738-855e-4bfb-9ee1-8ffe210fda0f" />
+
