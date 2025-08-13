@@ -29,10 +29,20 @@ The day concluded with a practical project: implementing a **calculator with mem
 
 <img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/e6611206-25f4-4d76-9428-b9de926bb488" />
 
-### Day 4 – Building the CPU Core
-Designed and implemented instruction decoding, ALU, register file, and control units, while tackling hazards like read/write issues, branches, and load stalls in a single-cycle microarchitecture.  
+### Day 4 – RISC-V Microarchitecture (Single-Cycle) Design
 
-Block Diagram of the non-pipelined RISC-V processor  developed on 4th day of the workshop,
+Day 4 focused on the practical implementation of a **RISC-V single-cycle microarchitecture**, starting with a brief **introduction to the RISC-V ISA** and its design philosophy. We then proceeded to construct the core building blocks of the processor.
+
+The following components were designed and integrated:
+- **Program Counter (PC)** – to track instruction execution flow.  
+- **Instruction Fetch Unit** – to retrieve instructions from memory.  
+- **Instruction Decoder** – to interpret binary opcodes into control signals.  
+- **Control Logic** – to manage datapath operations based on instruction types.  
+- **Register File** – to store and provide operand values for execution.  
+- **Arithmetic Logic Unit (ALU)** – to perform arithmetic and logical operations.  
+- **Data Path Wiring** – to interconnect all functional units for seamless operation.
+
+We also implemented **instruction and register memory access mechanisms** to enable full instruction execution. The design was validated through **verification using a dedicated testbench**, ensuring functional correctness of the single-cycle processor.  
 
 <img width="1686" height="1056" alt="image" src="https://github.com/user-attachments/assets/4c794860-44f5-430f-b9db-a72c744e91b1" />
 
