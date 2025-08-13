@@ -43,19 +43,22 @@ We then studied the primary **RISC-V instruction formats**:
 - **R-Type** – Register-to-register operations (e.g., arithmetic and logic).  
 - **I-Type** – Immediate value and load instructions.  
 - **S-Type** – Store instructions for memory operations.  
+Understood the encoding fields: opcode, funct3, funct7, rs1, rs2, rd, and immediate.
 
 The day concluded with a discussion on the **ISA execution methodology**, mapping how different instruction types are fetched, decoded, and executed in the hardware pipeline.
 
-For the practical component, we engaged in **hands-on programming** exercises, writing assembly routines to explore the ABI, manage the stack, and interact with memory directly through RISC-V instructions.  
-[GitHub](#)
+The hands-on portion included:
+- Writing C programs with **embedded assembly** using ABI calls.  
+- Executing these programs on a **Verilog-based PicoRV32 core**.  
+- Creating and running a **testbench in Icarus Verilog (iverilog)** to verify program correctness at the hardware simulation level.  
 
 **Key Takeaways**
-- Understood the role of the ABI in defining binary-level software-hardware interaction.  
-- Learned RISC-V function calling conventions and stack frame structure.  
-- Explored memory layout and system call mechanisms.  
-- Gained familiarity with R-Type, I-Type, and S-Type instruction formats.  
-- Learned the execution flow of instructions in RISC-V.  
-- Applied concepts through hands-on assembly programming.  
+- Understood the role of ABI in software–hardware interaction.  
+- Learned function calling conventions, stack usage, and memory organization.  
+- Gained detailed knowledge of R-Type, I-Type, and S-Type instruction formats.  
+- Applied ISA execution methodology in real examples.  
+- Developed C programs with embedded assembly for ABI-level calls.  
+- Simulated and verified execution on the PicoRV32 core using iverilog.  
 
 
 ### Day 3 – Digital Logic with TL-Verilog
