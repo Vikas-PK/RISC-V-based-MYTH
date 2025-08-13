@@ -27,6 +27,15 @@ We explored advanced microarchitecture techniques such as **pipelining principle
 
 The day concluded with a practical project: implementing a **calculator with memory and recall functionality**, integrating all learned concepts into a cohesive and verified design.  
 
+**Key Takeaways**
+- Learned the fundamentals of TL-Verilog syntax and Makerchip workflow.  
+- Understood timing-based modeling for predictable hardware behavior.  
+- Applied pipelining and retiming techniques for performance optimization.  
+- Used validity and flow control for reliable data movement.  
+- Implemented clock gating to enhance power efficiency.  
+- Designed hierarchical modules for better scalability.  
+- Completed a functional calculator project with memory and recall features.  
+
 Block diagram of the developed **calculator with memory and recall functionality**,
 <img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/e6611206-25f4-4d76-9428-b9de926bb488" />
 
@@ -44,6 +53,13 @@ The following components were designed and integrated:
 - **Data Path Wiring** – to interconnect all functional units for seamless operation.
 
 We also implemented **instruction and register memory access mechanisms** to enable full instruction execution. The design was validated through **verification using a dedicated testbench**, ensuring functional correctness of the single-cycle processor.  
+
+**Key Takeaways**
+- Gained a deeper understanding of the RISC-V ISA and microarchitecture principles.  
+- Implemented all essential components of a single-cycle CPU.  
+- Learned instruction fetch, decode, and execution flow.  
+- Connected all modules through a functional datapath.  
+- Achieved successful functional verification using a testbench.
 
 Block diagram of the developed **Single cycle processor**,
 <img width="1686" height="1056" alt="image" src="https://github.com/user-attachments/assets/4c794860-44f5-430f-b9db-a72c744e91b1" />
@@ -65,6 +81,15 @@ To maintain pipeline correctness, we addressed:
 - **Control Hazards (Branches and Jumps)** – by implementing branch prediction and flush mechanisms where necessary.
 
 The ALU was extended to support additional operations, and **pipelined execution** was implemented for branches, jumps, loads, and stores. Finally, all modules were systematically integrated, resulting in a fully functional and verified pipelined RISC-V processor.  
+
+**Key Takeaways**
+- Designed and implemented a complete 5-stage RISC-V pipeline.  
+- Utilized waterfall diagrams for better pipeline visualization.  
+- Learned to use validity signals for robust flow control.  
+- Implemented techniques to resolve data and control hazards.  
+- Extended ALU capabilities for broader instruction support.  
+- Integrated branches, jumps, loads, and stores in a pipelined environment.  
+- Successfully verified the pipelined CPU through systematic testing.  
 
 Block Diagram of the 5-stage pipelined RISC-V processor developed on 5th day of the workshop,
 
