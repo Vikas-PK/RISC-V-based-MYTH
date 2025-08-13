@@ -95,3 +95,10 @@ Block Diagram of the 5-stage pipelined RISC-V processor developed on 5th day of 
 
 <img width="683" height="1090" alt="image" src="https://github.com/user-attachments/assets/13cd8738-855e-4bfb-9ee1-8ffe210fda0f" />
 
+---
+
+## Acknowledgements
+
+I’d like to thank **Steve Hoover** and **Kunal Ghosh** for organizing the RISC-V MYTH workshop and providing the recorded lectures that made this learning experience possible. Their clear explanations and structured approach made it much easier to understand RISC-V microarchitecture, TL-Verilog, and pipelined processor design. This workshop provided a great foundation for hands-on experimentation and exploration in hardware design.
+
+
