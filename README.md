@@ -1,4 +1,4 @@
-About This Workshop Summary
+#About This Workshop Summary
 Hi there! I’m thrilled to share my GitHub repository highlighting my experience in the RISC-V based MYTH (Microprocessor for You in Thirty Hours) workshop—an engaging and hands-on program organized by VSD and Redwood EDA. This summary captures my journey—from software fundamentals to building a microarchitecture—and blends technical rigor with personal excitement.
 
 Why I Did This
