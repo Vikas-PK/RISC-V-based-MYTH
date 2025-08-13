@@ -27,6 +27,7 @@ We explored advanced microarchitecture techniques such as **pipelining principle
 
 The day concluded with a practical project: implementing a **calculator with memory and recall functionality**, integrating all learned concepts into a cohesive and verified design.  
 
+Block diagram of the developed **calculator with memory and recall functionality**,
 <img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/e6611206-25f4-4d76-9428-b9de926bb488" />
 
 ### Day 4 – RISC-V Microarchitecture (Single-Cycle) Design
@@ -44,13 +45,28 @@ The following components were designed and integrated:
 
 We also implemented **instruction and register memory access mechanisms** to enable full instruction execution. The design was validated through **verification using a dedicated testbench**, ensuring functional correctness of the single-cycle processor.  
 
+Block diagram of the developed **Single cycle processor**,
 <img width="1686" height="1056" alt="image" src="https://github.com/user-attachments/assets/4c794860-44f5-430f-b9db-a72c744e91b1" />
 
 
-### Day 5 – Load/Store, Memory, Testing
-Added load/store instructions, crafted a memory subsystem, and developed a testbench to verify CPU functionality—tying together software and hardware verification.
+### Day 5 – 5-Stage Pipelined RISC-V Processor
 
-Block Diagram of the pipelined RISC-V processor developed on 5th day of the workshop,
+Day 5 was dedicated to extending the single-cycle RISC-V processor into a **5-stage pipelined design** to improve instruction throughput and overall efficiency. The pipeline stages implemented were:  
+1. **Fetch** – Retrieve instructions from memory.  
+2. **Decode** – Interpret instructions and generate control signals.  
+3. **Read** – Access required operands from the register file.  
+4. **Execute** – Perform ALU operations and evaluate branch conditions.  
+5. **Write** – Store results back to the register file or memory.  
+
+A **waterfall diagram** was created to visualize the instruction flow across pipeline stages. **Validity (`valid`) signals** were introduced for precise **flow control**, with **end-stage validity** ensuring correct instruction retirement.
+
+To maintain pipeline correctness, we addressed:
+- **Data Hazards (Read After Write / RAW)** – through appropriate hazard detection and resolution techniques.  
+- **Control Hazards (Branches and Jumps)** – by implementing branch prediction and flush mechanisms where necessary.
+
+The ALU was extended to support additional operations, and **pipelined execution** was implemented for branches, jumps, loads, and stores. Finally, all modules were systematically integrated, resulting in a fully functional and verified pipelined RISC-V processor.  
+
+Block Diagram of the 5-stage pipelined RISC-V processor developed on 5th day of the workshop,
 
 <img width="683" height="1090" alt="image" src="https://github.com/user-attachments/assets/13cd8738-855e-4bfb-9ee1-8ffe210fda0f" />
 
