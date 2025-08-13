@@ -16,20 +16,15 @@ This repository mirrors the workshop’s five-day structure with progressive lea
 
 ### Day 1 – Foundations
 I explored **RISC-V’s open-source ISA**, hopped into C programming, compiled code with GCC, and ran simulations using Spike. I also dove into number systems and binary basics.  
-[GitHub](#)  
 
 ### Day 2 – ABI & Verification Basics
 I learned about the **Application Binary Interface (ABI)** and walked through creating my own assembler routines, understanding how instructions map to registers and binary.  
-[GitHub](#)  
 
 ### Day 3 – Digital Logic with TL-Verilog
-Engaged with combinational and sequential logic, explored flip-flops and pipelined designs using **TL-Verilog** on **Makerchip**—powerful tools for modern HDL abstraction.  
-[GitHub](#)  
+Engaged with combinational and sequential logic, explored flip-flops and pipelined designs using **TL-Verilog** on **Makerchip**—powerful tools for modern HDL abstraction.   
 
 ### Day 4 – Building the CPU Core
 Designed and implemented instruction decoding, ALU, register file, and control units, while tackling hazards like read/write issues, branches, and load stalls in a single-cycle microarchitecture.  
-[GitHub](#)  
 
 ### Day 5 – Load/Store, Memory, Testing
 Added load/store instructions, crafted a memory subsystem, and developed a testbench to verify CPU functionality—tying together software and hardware verification.  
-[GitHub](#)  
