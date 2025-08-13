@@ -21,12 +21,13 @@ I explored **RISC-V’s open-source ISA**, hopped into C programming, compiled c
 I learned about the **Application Binary Interface (ABI)** and walked through creating my own assembler routines, understanding how instructions map to registers and binary.  
 
 ### Day 3 – Digital Logic with TL-Verilog
-Engaged with combinational and sequential logic, explored flip-flops and pipelined designs using **TL-Verilog** on **Makerchip**—powerful tools for modern HDL abstraction.   
+Day 3 focused on mastering **Transaction-Level Verilog (TL-Verilog)** for efficient digital design. The session began with an introduction to **TL-Verilog syntax** and hands-on implementation using the **Makerchip IDE**. Key concepts covered included applying **design constraints** and leveraging **timing-based modeling** to achieve predictable and maintainable hardware behavior.
 
-Block diagram of pipelined calculator (with memory and recall) developed on 3rd day of the workshop,
+We explored advanced microarchitecture techniques such as **pipelining principles**, **retiming**, and **validity and flow control** to ensure correct and efficient data propagation. Power optimization strategies were introduced through **clock gating**, and **hierarchical design** methodologies were applied to enhance modularity and reusability.
+
+The day concluded with a practical project: implementing a **calculator with memory and recall functionality**, integrating all learned concepts into a cohesive and verified design.  
 
 <img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/e6611206-25f4-4d76-9428-b9de926bb488" />
-
 
 ### Day 4 – Building the CPU Core
 Designed and implemented instruction decoding, ALU, register file, and control units, while tackling hazards like read/write issues, branches, and load stalls in a single-cycle microarchitecture.  
